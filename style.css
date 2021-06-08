@@ -22,7 +22,7 @@ body {
     text-align: center;
 }
 
-.container {
+.container2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ ul > li {
 .btn {
     border-radius: 1em;
     border: none;
-    color: #fff;
+    color: #000;
     box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
     padding: 0.8em;
 }
@@ -68,6 +68,8 @@ h3 {
 .score-panel {
     font-size: 1.4em;
     padding: 1em 0 2em;
+    border: solid 1px #000;
+    margin-bottom: 2em;
 }
 
 .star-rating > li {
@@ -80,7 +82,9 @@ h3 {
 }
 
 .reset-btn {
+    margin-top: 0.5em;
     background: #000;
+    color: #5cf;
 }
 
 .timer-container {
