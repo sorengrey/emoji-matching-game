@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Memory Game</title>
+    <title>Match The Cards</title>
 
     <!-- Font Awesome -->
     <link
@@ -19,14 +19,17 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
-    />
+    /> 
 
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-    <div class="container2">
+    <!-- <div class="container2"> -->
+      <div class="container">
+        <div class="row">
+          <div class="col">
       <header class="header">
         <h1>Match The Cards</h1>
         <br />
@@ -35,7 +38,7 @@
           Try to find all eight pairs in as few moves as possible!
         </p>
       </header>
-
+      
       <section class="score-panel">
         <h3>Score Panel</h3>
         <ul id="star-rating" class="star-rating">
@@ -56,6 +59,15 @@
           </button>
         </div>
       </section>
+    </div>
+
+    <div class="col">
+      <ul class="deck"></ul>
+    </div>
+
+</div>
+
+
 
       <!-- Modal -->
       <section class="win-game-modal">
@@ -70,7 +82,8 @@
         </div>
       </section>
 
-      <ul class="deck"></ul>
+      
+    </div>
     </div>
   </body>
 
