@@ -269,6 +269,7 @@ img {
     }
     .deck img {
         width: 13em;
+        margin-top: 1em;
     }
     .reset-btn {
         font-size: 0.8em;
